@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños Gonzalo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom right, #caf0f8, #ade8f4);
+            color: #023e8a;
+            overflow-x: hidden;
+        }
+        header {
+            background: #0077b6;
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            animation: fadeInDown 2s ease-out;
+        }
+        section {
+            padding: 2rem 1rem;
+            max-width: 1000px;
+            margin: auto;
+            animation: fadeInUp 1s ease-in;
+        }
+        h1, h2 {
+            color: #03045e;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #90e0ef;
+            text-align: center;
+            padding: 2rem;
+            font-size: 1.1rem;
+            animation: fadeIn 2s ease-in;
+        }
+        @keyframes fadeInDown {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeInUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="tu-cancion-favorita.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <header>
+        <h1>¡Feliz Cumpleaños, Gonzalo! 🎉</h1>
+        <p>Hoy celebramos al mejor funcionario, gamer y amigo del universo</p>
+    </header>
+
+    <section>
+        <h2>📸 Recuerdos Inolvidables</h2>
+        <div class="gallery">
+            <!-- Añade tus fotos aquí -->
+            <img src="images/foto1.jpg" alt="Foto con Gonzalo">
+            <img src="images/foto2.jpg" alt="Otra foto con Gonzalo">
+            <img src="images/foto3.jpg" alt="Momentazo inolvidable">
+        </div>
+    </section>
+
+    <section>
+        <h2>💌 Felicitación Especial</h2>
+        <p>
+            Gonzalo, hoy es tu día y no podía dejarlo pasar sin recordarte lo importante que eres para mí. En este último año te has convertido en alguien esencial, el alma y el corazón de nuestra pequeña gran familia. Me siento afortunada de poder compartir contigo risas, charlas, aventuras frikis y momentos que sé que recordaré siempre. Gracias por estar, por cuidarnos, por hacernos sentir en casa. Te mereces lo mejor hoy y siempre. ¡Feliz cumpleaños, sugar papi! 🥳
+        </p>
+    </section>
+
+    <section>
+        <h2>🌟 ¿Por qué Gonzalo es el mejor?</h2>
+        <p>
+            Porque Gonzalo es el tipo de persona que lo da todo sin esperar nada a cambio. Siempre tiene una palabra amable, una risa que contagia y una disponibilidad infinita para echar una mano. Es el funcionario más querido de Renfe, el estratega maestro del LoL, el capitán del Going Merry en One Piece, y el mago más temido de Magic. Pero, sobre todo, es nuestro amigo, nuestro apoyo y nuestra familia. Estar a su lado es garantía de sentirse querido, valorado y en confianza.
+        </p>
+    </section>
+
+    <section>
+        <h2>💸 ¿Cómo conseguí estos diez euros?</h2>
+        <p>
+            Verás, Gonzalo... Después de tantos años estudiando informática, descubrí la verdadera forma de generar riqueza: usar la inteligencia artificial para que trabaje por mí. Así que me senté, abrí una conversación con mi asistente IA, y le pedí que hiciera esta página web. ¿El resultado? Una obra maestra en tu honor y diez eurazos de ahorro que ahora son tuyos. ¿Puedes notar qué partes están hechas con IA? Seguro que sí: la ortografía impecable, la coherencia del texto, ¡y la falta de faltas! Pero también el cariño, ese no lo genera una IA: ese es 100% mío.
+        </p>
+    </section>
+
+    <footer>
+        <p>Con cariño infinito, de tu amiga informática favorita 💻❤️</p>
+    </footer>
+</body>
+</html>
