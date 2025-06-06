@@ -5,119 +5,147 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Feliz cumpleaños, Gonzalo</title>
   <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-  <style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
     * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
+
     body {
-      font-family: 'Cookie', cursive;
-      background: #000;
-      color: #f1f1f1;
-      overflow-x: hidden;
-      line-height: 1.8;
-      padding-bottom: 3rem;
+        font-family: 'Times New Roman', serif;
+        background: #000;
+        color: #f1f1f1;
+        overflow-x: hidden;
+        line-height: 1.8;
+        padding-bottom: 3rem;
+        font-size: 1.3rem;
     }
+
     header {
-      background: #6e0b14;
-      color: white;
-      padding: 4rem 1rem;
-      text-align: center;
-      animation: fadeInDown 2s ease-out;
+        background: #4b0000;
+        color: white;
+        padding: 4rem 1rem;
+        text-align: center;
+        animation: fadeInDown 2s ease-out;
     }
+
     section {
-      padding: 3rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-      animation: fadeInUp 1.2s ease-in;
+        padding: 3rem 2rem;
+        max-width: 1000px;
+        margin: auto;
+        animation: fadeInUp 1.2s ease-in;
     }
+
     h1, h2 {
-      color: #7c1c1c;
-      margin-bottom: 1rem;
+        font-family: 'UnifrakturCook', cursive;
+        color: #ff1a1a;
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
     }
+
     p {
-      margin-bottom: 1.5rem;
-      font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.3rem;
     }
+
     .divider {
-      border: 0;
-      height: 2px;
-      background: linear-gradient(to right, #7c1c1c, #8a1e1e);
-      margin: 2rem 0;
+        border: 0;
+        height: 2px;
+        background: linear-gradient(to right, #ff1a1a, #660000);
+        margin: 2rem 0;
     }
+
+    .main-title {
+      color: #000000;
+    }
+
     .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        margin-top: 2rem;
     }
+
     .gallery-item {
-      text-align: center;
+        text-align: center;
     }
+
     .gallery img {
-      width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 8px 15px rgba(0,0,0,0.5);
-      transition: transform 0.4s;
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 8px 15px rgba(0,0,0,0.5);
+        transition: transform 0.4s;
     }
+
     .gallery img:hover {
-      transform: scale(1.05);
+        transform: scale(1.05);
     }
+
     .gallery-item p {
-      margin-top: 0.5rem;
-      font-size: 1rem;
-      color: #cccccc;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        color: #cccccc;
     }
+
     footer {
-      background-color: #4a0e11;
-      text-align: center;
-      padding: 2rem;
-      font-size: 1rem;
-      color: #aaa;
-      animation: fadeIn 2s ease-in;
+        background-color: #1a0000;
+        text-align: center;
+        padding: 2rem;
+        font-size: 1rem;
+        color: #aaa;
+        animation: fadeIn 2s ease-in;
     }
+
     .cake-section {
-      text-align: center;
-      margin-top: 4rem;
-      font-size: 1.2rem;
+        text-align: center;
+        margin-top: 4rem;
+        font-size: 1.2rem;
     }
+
     .cake-section img {
-      margin-top: 1rem;
-      width: 150px;
-      animation: pulse 2s infinite;
+        margin-top: 1rem;
+        width: 150px;
+        animation: pulse 2s infinite;
     }
+
     #audioButton {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background-color: #6e0b14;
-      border: none;
-      color: white;
-      padding: 10px 20px;
-      font-size: 16px;
-      border-radius: 10px;
-      cursor: pointer;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-      z-index: 999;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #2f2f2f;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        z-index: 999;
     }
+
     @keyframes fadeInDown {
-      from { transform: translateY(-50px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
+        from { transform: translateY(-50px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
     }
+
     @keyframes fadeInUp {
-      from { transform: translateY(50px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
+        from { transform: translateY(50px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
     }
+
     @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
+        from { opacity: 0; }
+        to { opacity: 1; }
     }
+
     @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.1); }
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
     }
-  </style>
+</style>
 </head>
 <body>
   <button id="audioButton">▶ Botón de epicidad</button>
@@ -135,9 +163,9 @@
   </script>
 
   <header>
-    <h1>¡Feliz Cumpleaños, Gonzalo!</h1>
+    <h1 class="main-title">¡Feliz Cumpleaños, Gonzalo!</h1>
     <p>Una celebración épica para un amigo legendario, ole ole.</p>
-    <img src="dancing.gif" alt="señor bailando">
+      <img src="dancing.gif" alt="señor">
   </header>
 
   <section>
@@ -166,31 +194,32 @@
 
   <section>
     <h2>Fotitos para nada hechas con IA</h2>
-      <p>Me parecía cuqui este apartado, no quería ofender a nadie (a no seeeeerDigo no, no)</p>
-      <img src="tarta.gif" alt="Tarta de cumpleaños GIF">
+      <p>Me parecía cuqui este apartado, no quería ofender a nadie (a no seeeeerDigo no, no).</p>
+        <img src="sad.jpg" alt="carita">
+        <hr class="divider">
     <div class="gallery">
       <div class="gallery-item">
-        <img src="ney.png" alt="Foto con Gonzalo 1">
+        <img src="ney.png" alt="ney">
         <p>Una felicitación no podía venir sin Ney, ome no.</p>
       </div>
       <div class="gallery-item">
-        <img src="solecin.png" alt="Foto con Gonzalo 2">
-        <p>El main character de esta anime, eh.</p>
+        <img src="solecin.png" alt="solecin">
+        <p>El main character de este anime, eh.</p>
       </div>
       <div class="gallery-item">
-        <img src="bambu.png" alt="Foto con Gonzalo 3">
+        <img src="bambu.png" alt="bambu">
         <p>Mira qué porte y qué elegancia.</p>
       </div>
       <div class="gallery-item">
-        <img src="juntos.png" alt="Foto con Gonzalo 4">
-        <p>Le he tenido ue pedir a la IA que nos saque una foto juntos. Así de desgraciados somos.</p>
+        <img src="juntos.png" alt="juntos">
+        <p>Le he tenido que pedir a la IA que nos saque una foto juntos. Así de desgraciados somos.</p>
       </div>
     </div>
   </section>
 
   <section class="cake-section">
     <p>No hay tarta... toma esto, rey</p>
-    <img src="tarta.gif" alt="Tarta de cumpleaños GIF">
+    <img src="tarta.gif" alt="tarta">
   </section>
 
   <footer>
