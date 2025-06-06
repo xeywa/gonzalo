@@ -1,199 +1,202 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feliz Cumpleaños, Gonzalo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Cinzel', serif;
-            background: #000;
-            color: #f1f1f1;
-            overflow-x: hidden;
-            line-height: 1.8;
-            padding-bottom: 3rem;
-        }
-        header {
-            background: #8b0000;
-            color: white;
-            padding: 4rem 1rem;
-            text-align: center;
-            animation: fadeInDown 2s ease-out;
-        }
-        section {
-            padding: 3rem 2rem;
-            max-width: 1000px;
-            margin: auto;
-            animation: fadeInUp 1.2s ease-in;
-        }
-        h1, h2 {
-            color: #ff0044;
-            margin-bottom: 1rem;
-        }
-        p {
-            margin-bottom: 1.5rem;
-            font-size: 1.2rem;
-        }
-        .divider {
-            border: 0;
-            height: 2px;
-            background: linear-gradient(to right, #ff0044, #ff0000);
-            margin: 2rem 0;
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-top: 2rem;
-        }
-        .gallery-item {
-            text-align: center;
-        }
-        .gallery img {
-            width: 100%;
-            border-radius: 12px;
-            box-shadow: 0 8px 15px rgba(0,0,0,0.5);
-            transition: transform 0.4s;
-        }
-        .gallery img:hover {
-            transform: scale(1.05);
-        }
-        .gallery-item p {
-            margin-top: 0.5rem;
-            font-size: 1rem;
-            color: #cccccc;
-        }
-        footer {
-            background-color: #1a0000;
-            text-align: center;
-            padding: 2rem;
-            font-size: 1rem;
-            color: #aaa;
-            animation: fadeIn 2s ease-in;
-        }
-        .cake-section {
-            text-align: center;
-            margin-top: 4rem;
-            font-size: 1.2rem;
-        }
-        .cake-section img {
-            margin-top: 1rem;
-            width: 150px;
-            animation: pulse 2s infinite;
-        }
-        #audioButton {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            background-color: #ff0044;
-            border: none;
-            color: white;
-            padding: 10px 20px;
-            font-size: 16px;
-            border-radius: 10px;
-            cursor: pointer;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-            z-index: 999;
-        }
-        @keyframes fadeInDown {
-            from { transform: translateY(-50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        @keyframes fadeInUp {
-            from { transform: translateY(50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feliz Cumpleaños, Gonzalo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Cookie', cursive;
+      background: #000;
+      color: #f1f1f1;
+      overflow-x: hidden;
+      line-height: 1.8;
+      padding-bottom: 3rem;
+    }
+    header {
+      background: #6e0b14;
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+      animation: fadeInDown 2s ease-out;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1.2s ease-in;
+    }
+    h1, h2 {
+      color: #7c1c1c;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 1.5rem;
+      font-size: 1.2rem;
+    }
+    .divider {
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, #7c1c1c, #8a1e1e);
+      margin: 2rem 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 2rem;
+    }
+    .gallery-item {
+      text-align: center;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.5);
+      transition: transform 0.4s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .gallery-item p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #cccccc;
+    }
+    footer {
+      background-color: #4a0e11;
+      text-align: center;
+      padding: 2rem;
+      font-size: 1rem;
+      color: #aaa;
+      animation: fadeIn 2s ease-in;
+    }
+    .cake-section {
+      text-align: center;
+      margin-top: 4rem;
+      font-size: 1.2rem;
+    }
+    .cake-section img {
+      margin-top: 1rem;
+      width: 150px;
+      animation: pulse 2s infinite;
+    }
+    #audioButton {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #6e0b14;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      z-index: 999;
+    }
+    @keyframes fadeInDown {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+  </style>
 </head>
 <body>
-    <button id="audioButton">▶ Reproducir música</button>
-    <audio id="bgAudio" loop>
-        <source src="happy.mp3" type="audio/mpeg">
-        Tu navegador no soporta audio HTML5.
-    </audio>
+  <button id="audioButton">▶ Botón de epicidad</button>
+  <audio id="bgAudio" loop>
+    <source src="happy.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+  <script>
+    const audio = document.getElementById("bgAudio");
+    const button = document.getElementById("audioButton");
+    button.addEventListener("click", () => {
+      audio.play();
+      button.style.display = 'none';
+    });
+  </script>
 
-    <script>
-        const audio = document.getElementById("bgAudio");
-        const button = document.getElementById("audioButton");
-        button.addEventListener("click", () => {
-            audio.play();
-            button.style.display = 'none';
-        });
-    </script>
+  <header>
+    <h1>¡Feliz Cumpleaños, Gonzalo!</h1>
+    <p>Una celebración épica para un amigo legendario, ole ole.</p>
+    <img src="dancing.gif" alt="señor bailando">
+  </header>
 
-    <header>
-        <h1>¡Feliz Cumpleaños, Gonzalo</h1>
-        <p>Una celebración épica para un amigo legendario</p>
-        <img src="dancing.gif" alt="señor bailando">
-    </header>
+  <section>
+    <h2>Momento sentimental, wey</h2>
+    <p>
+      Gonzalo, hoy es tu día y no podía dejarlo pasar sin recordarte lo importante que eres para mí. En este último año te has convertido en alguien esencial, formas parte de mi pequeña familia elegida y eso será ya siempre así. Me siento afortunada de poder compartir contigo risas, charlas, aventuras y momentos que sé que recordaré siempre. Gracias por estar, por cuidarnos, por hacernos sentir en casa. Te mereces lo mejor hoy y siempre.
+    </p>
+    <hr class="divider">
+  </section>
 
-    <section>
-        <h2>Felicitación</h2>
-        <p>
-            Gonzalo, hoy es tu día y no podía dejarlo pasar sin recordarte lo importante que eres para mí. En este último año te has convertido en alguien esencial, el alma y el corazón de nuestra pequeña gran familia. Me siento afortunada de poder compartir contigo risas, charlas, aventuras frikis y momentos que sé que recordaré siempre. Gracias por estar, por cuidarnos, por hacernos sentir en casa. Te mereces lo mejor hoy y siempre. ¡Feliz cumpleaños, sugar papi! 🥳
-        </p>
-        <hr class="divider">
-    </section>
+  <section>
+    <h2>¿Cómo conseguí estos diez euros?</h2>
+    <p>
+      Verás, Gonzalo... Después de tantos años estudiando informática, descubrí la verdadera forma de generar riqueza: usar la inteligencia artificial para que trabaje por mí. Así que me senté, abrí una conversación con mi Chaty, y le pedí que hiciera esta página web. ¿El resultado? Una obra maestra en tu honor y diez eurazos que ahora son tuyos. De nada, mi rey. ¿Puedes notar qué partes están hechas con IA? Seguro que sí: la ortografía impecable, la coherencia del texto, el claro esfuerzo no invertido... Pero también el cariño, ese no lo genera una IA: ese es 100% mío.
+    </p>
+    <hr class="divider">
+  </section>
 
-    <section>
-        <h2>¿Cómo conseguí estos diez euros?</h2>
-        <p>
-            Verás, Gonzalo... Después de tantos años estudiando informática, descubrí la verdadera forma de generar riqueza: usar la inteligencia artificial para que trabaje por mí. Así que me senté, abrí una conversación con mi asistente IA, y le pedí que hiciera esta página web. ¿El resultado? Una obra maestra en tu honor y diez eurazos de ahorro que ahora son tuyos. ¿Puedes notar qué partes están hechas con IA? Seguro que sí: la ortografía impecable, la coherencia del texto, ¡y la falta de faltas! Pero también el cariño, ese no lo genera una IA: ese es 100% mío.
-        </p>
-        <hr class="divider">
-    </section>
+  <section>
+    <h2>¿Por qué Gonzalo es el mejor?</h2>
+    <p>
+      Porque Gonzalo es el tipo de persona que lo da todo sin esperar nada a cambio. Siempre tiene un buen consejo de hombre sabio, un chiste de cuñado, una risa que contagia y una disponibilidad infinita para echar una mano. Es el funcionario más querido de Renfe (espero, o si no habrá que empezar a apuñalar), el mejor en el LoL (imagino, pero si lo lee Pau yo no he dicho eso) y el jugador más temido de Magic (digo yo, pero yo confío, aham). Pero, sobre todo, es nuestro amigo, nuestro apoyo y nuestra familia. Estar a su lado es garantía de sentirse querido, valorado y en confianza.
+    </p>
+    <hr class="divider">
+  </section>
 
-    <section>
-        <h2>¿Por qué Gonzalo es el mejor?</h2>
-        <p>
-            Porque Gonzalo es el tipo de persona que lo da todo sin esperar nada a cambio. Siempre tiene una palabra amable, una risa que contagia y una disponibilidad infinita para echar una mano. Es el funcionario más querido de Renfe, el estratega maestro del LoL, el capitán del Going Merry en One Piece, y el mago más temido de Magic. Pero, sobre todo, es nuestro amigo, nuestro apoyo y nuestra familia. Estar a su lado es garantía de sentirse querido, valorado y en confianza.
-        </p>
-        <hr class="divider">
-    </section>
+  <section>
+    <h2>Fotitos para nada hechas con IA</h2>
+      <p>Me parecía cuqui este apartado, no quería ofender a nadie (a no seeeeerDigo no, no)</p>
+      <img src="tarta.gif" alt="Tarta de cumpleaños GIF">
+    <div class="gallery">
+      <div class="gallery-item">
+        <img src="ney.png" alt="Foto con Gonzalo 1">
+        <p>Una felicitación no podía venir sin Ney, ome no.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="solecin.png" alt="Foto con Gonzalo 2">
+        <p>El main character de esta anime, eh.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="bambu.png" alt="Foto con Gonzalo 3">
+        <p>Mira qué porte y qué elegancia.</p>
+      </div>
+      <div class="gallery-item">
+        <img src="juntos.png" alt="Foto con Gonzalo 4">
+        <p>Le he tenido ue pedir a la IA que nos saque una foto juntos. Así de desgraciados somos.</p>
+      </div>
+    </div>
+  </section>
 
-    <section>
-        <h2>Fotitos para nada hechas con IA</h2>
-        <div class="gallery">
-            <div class="gallery-item">
-                <img src="ney.png" alt="Foto con Gonzalo 1">
-                <p>Ese día lo pasamos genial en aquel lugar que se volvió especial.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="solecin.png" alt="Foto con Gonzalo 2">
-                <p>Tu sonrisa lo dice todo. Momentos que valen oro.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="bambu.png" alt="Foto con Gonzalo 3">
-                <p>Frikismo, locuras y amistad: resumen perfecto de este instante.</p>
-            </div>
-            <div class="gallery-item">
-                <img src="juntos.png" alt="Foto con Gonzalo 1">
-                <p>Ese día lo pasamos genial en aquel lugar que se volvió especial.</p>
-            </div>
-        </div>
-    </section>
+  <section class="cake-section">
+    <p>No hay tarta... toma esto, rey</p>
+    <img src="tarta.gif" alt="Tarta de cumpleaños GIF">
+  </section>
 
-    <section class="cake-section">
-        <p>No hay tarta... toma esto, rey</p>
-        <img src="tarta.gif" alt="Tarta de cumpleaños GIF">
-    </section>
-
-    <footer>
-        <p>Con cariño infinito, de tu infomrática favorita. P.D.: Tu hermano no cuenta. P.D.2.: He dicho favorita y a callar.</p>
-    </footer>
+  <footer>
+    <p>Con cariño infinito, de tu informática favorita.</p>
+    <p>P.D.: Tu hermano no cuenta.</p>
+    <p>P.D.2.: He dicho favorita y a callar.</p>
+  </footer>
 </body>
 </html>
